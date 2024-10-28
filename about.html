@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | ECORECYCLE NEXUS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        /* Styling for the body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #95e2e2;
+            color: #333;
+        }
+
+        /* Navigation bar styling */
+        .navbar {
+            background-color: #4caf50;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand img {
+            width: 50px;
+            height: auto;
+        }
+
+        .section-title {
+            color: #4caf50;
+            font-weight: bold;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        /* Logo styling */
+        .logo-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .logo-container img {
+            width: 170px;
+            height: auto;
+        }
+
+        /* Content Styling */
+        .content-section {
+            padding: 2rem;
+            background: #f6f4f4;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Team Member Frame */
+        .team-member {
+            text-align: center;
+            max-width: 200px; /* Set max width for description */
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 1rem;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-images {
+            display: flex;
+            flex-wrap: wrap; /* Allows wrapping into rows */
+            justify-content: center;
+            gap: 2rem; /* Space between images */
+            margin-bottom: 2rem; /* Space below the images */
+        }
+
+        .team-images img {
+            width: 120px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 0.5rem; /* Space between image and text */
+        }
+
+        /* Map Section */
+        .map-container {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2f4f4f;
+            color: #ffffff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        footer a {
+            color: #a8e063;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logos.jfif" alt="ECORECYCLE Logo"> ECORECYCLE NEXUS
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                
+                <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Logo Section -->
+    <div class="logo-container">
+        <img src="images/logo1.jfif" alt="EcoRecycle Logo">
+    </div>
+
+    <!-- About Section -->
+    <div class="container">
+        <h1 class="section-title">About Us</h1>
+        <div class="content-section">
+            <p>
+                At <strong>ECORECYCLE NEXUS</strong>, we are committed to transforming plastic waste into valuable resources to reduce environmental impact and promote sustainability. Our dedicated team, equipped with advanced facilities, works tirelessly to innovate and improve recycling processes, enabling a cleaner and greener planet. Our skilled management and technical staff are integral to our mission, overseeing every aspect of operations with precision and dedication.
+            </p>
+
+            <p>
+                As we continue to expand our reach and capabilities, we prioritize community engagement and environmental stewardship. By educating the public on recycling benefits and making sustainable practices accessible, we aim to inspire a culture of conservation and responsibility. Our recycling processes focus primarily on PET and HDPE plastics, which play a significant role in reducing pollution and preserving natural resources.
+            </p>
+
+            <!-- Team Section -->
+            <h2 class="section-title">Our Team</h2>
+            <div class="team-images">
+                <!-- Row 1 -->
+                <div class="team-member">
+                    <img src="images/albert_kotieno.jfif" alt="Albert K'Otieno">
+                    <h5>Albert K'Otieno</h5>
+                    <p>Director (Operation and Technical Lead)<br>Leads operational strategies and technical innovations.</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/jacob_otieno.jfif" alt="Jacob Otieno">
+                    <h5>Jacob Otieno</h5>
+                    <p>Field Operations Manager<br>Oversees collection and logistics for efficient operations.</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/ian_huma.jfif" alt="Ian Huma">
+                    <h5>Ian Huma</h5>
+                    <p>Automation and Power Systems Specialist<br>Ensures systems automation and power management.</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/ian_dancun.jfif" alt="Ian Dancun">
+                    <h5>Ian Dancun</h5>
+                    <p>Data Analyst and Process Optimization Specialist<br>Analyzes data to optimize recycling processes.</p>
+                </div>
+                <!-- Row 2 -->
+                <div class="team-member">
+                    <img src="images/ian_duncans.jfif" alt="Ian Duncan">
+                    <h5>Ian Duncan</h5>
+                    <p>IT Systems and Digital Solutions Manager<br>Manages IT systems and digital solutions.</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/benson_ogutu.jfif" alt="Eng. Benson Ogutu">
+                    <h5>Eng. Benson Ogutu</h5>
+                    <p>Equipment and Maintenance Manager<br>Responsible for equipment management and maintenance.</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/nameless.jfif" alt="Finance and Business Operations Manager">
+                    <h5>Finance and Business Operations Manager</h5>
+                    <p>Oversees financial operations and business strategies.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Directions Section -->
+        <div class="content-section">
+            <h2 class="section-title">Our Location</h2>
+            <p>
+                Visit us at our main facility located at <strong>off Kangungo Road, Nairobi, Kenya</strong>. Our doors are open for those interested in learning more about our operations or partnering with us to further the cause of sustainability.
+            </p>
+            <p>EcoNexus P O box 9588-00200,Off Kagundo road,Nairobi  Kenya, Stage 18 </p>
+            
+        </div>
+
+        <!-- Website Purpose Section -->
+        <div class="content-section">
+            <h2 class="section-title">Our Purpose</h2>
+            <p>
+                Our website serves as an information hub for our initiatives and a platform to engage the community on the importance of sustainable recycling practices. With the increasing threat of plastic pollution, our focus on recycling PET and HDPE plastics helps reduce waste, conserve valuable resources, and enhance environmental awareness. We believe in the power of collaboration, education, and innovation to address the pressing issues of waste management and environmental conservation.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Follow Us On:</p>
+        <a href="https://youtube.com/@econexus-c1t?si=suC7xX7MkEvDdC_O" target="_blank">YouTube</a> | 
+        <a href="https://www.facebook.com/profile.php?id=61567252902950" target="_blank">Facebook</a> | 
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
